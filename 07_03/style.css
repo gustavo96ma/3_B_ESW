@@ -1,0 +1,46 @@
+
+/* Boa prática limpar os estilos default principais  */
+* {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 120px;
+    color: #e98c28;
+}
+
+h2 {
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+    padding-left: 20px;
+    background-color: burlywood;
+}
+
+button {
+    color: blueviolet;
+    background-color: violet;
+}
+
+div {
+    display:flex ;
+    align-items: center;
+    justify-content:center;
+    
+
+}
+
+#div-img{
+    height: 150x;
+}
+
